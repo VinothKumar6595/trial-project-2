@@ -3,7 +3,6 @@ import classes from "./ProductForm.module.css";
 
 const ProductForm = (props) => {
   const idRef = useRef();
-
   const priceRef = useRef();
   const productNameRef = useRef();
   const categoryRef = useRef();
